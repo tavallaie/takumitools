@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "takumitools"
+version = "0.1.0"
+description = "A toolkit for generating Python API clients from OpenAPI specifications, providing dynamic request handling, robust exception handling, and support for various content types."
+authors = ["Ali Tavallaie <a.tavallaie@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
